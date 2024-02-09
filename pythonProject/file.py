@@ -1,0 +1,8 @@
+players=open('players.txt','w')
+players.write('Messi\n')
+players.write('Ronaldo\n')
+players.write('Neymar\n')
+players.close()
+players=open('players.txt','r')
+print(players.read())
+players.close()
